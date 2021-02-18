@@ -1,6 +1,26 @@
 # Pedra-Papel_Tesoura
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Function library example</title>
+  <style>
+    input {
+      font-size: 2em;
+      margin: 10px 1px 0;
+    }
+  </style>
+</head>
+<body>
 
-function playerSelection() {
+  <input class="numberInput" type="text">
+  <p></p>
+
+  <script>
+    const input = document.querySelector('.numberInput');
+    const para = document.querySelector('p');
+
+    function playerSelection() {
    let player = ( prompt ("pedra, papel ou tesoura?").toLowerCase() );
    return player
 }
@@ -40,4 +60,9 @@ function computerPlay() {
     alert('Você perdeu, tente novamente.')
     }
    }
+}
+
+  </script>
+</body>
+</html>
      
